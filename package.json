@@ -1,0 +1,26 @@
+{
+  "name": "imageuploader",
+  "version": "1.0.0",
+  "description": "A REST API to upload images to an AWS backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niladrib/ImageUploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niladrib/ImageUploader/issues"
+  },
+  "homepage": "https://github.com/niladrib/ImageUploader#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jimp": "^0.22.10"
+  }
+}
